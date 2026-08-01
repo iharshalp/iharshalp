@@ -1,0 +1,19 @@
+<svg width="1000" height="28" viewBox="0 0 1000 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="d-grad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="85%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 14 C 120 4, 220 24, 340 14 C 460 4, 560 24, 680 14 C 800 4, 900 24, 1000 14"
+        stroke="url(#d-grad)" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.8">
+    <animate attributeName="stroke-dasharray" values="0,1200;1200,0" dur="2.4s" fill="freeze"/>
+  </path>
+  <circle r="3" fill="#7FE7F5">
+    <animateMotion dur="5s" repeatCount="indefinite"
+      path="M0 14 C 120 4, 220 24, 340 14 C 460 4, 560 24, 680 14 C 800 4, 900 24, 1000 14"/>
+  </circle>
+</svg>
