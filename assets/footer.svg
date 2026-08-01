@@ -1,0 +1,18 @@
+<svg width="1000" height="140" viewBox="0 0 1000 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="f-bg" x1="0" y1="0" x2="1000" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060814"/>
+      <stop offset="100%" stop-color="#0D0A1C"/>
+    </linearGradient>
+    <linearGradient id="f-stroke" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="140" fill="url(#f-bg)"/>
+  <path d="M0 24 C 200 4, 300 44, 500 24 C 700 4, 800 44, 1000 24"
+        stroke="url(#f-stroke)" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <text x="500" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" fill="#7FE7F5" letter-spacing="3">THANKS FOR SCROLLING</text>
+  <text x="500" y="104" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5B6480">designed &amp; built by Harshal Patil &#183; harshal.hpweb.in</text>
+</svg>
